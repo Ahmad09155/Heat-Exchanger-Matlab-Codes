@@ -6,9 +6,9 @@ This repository contains MATLAB scripts developed to solve common heat exchanger
 
 | File Name          | Description |
 |------------------  |-------------|
-| `LMTD_counter.m`   |  Calculates outlet temperatures and required area for counter-flow configuration using LMTD. 
+| `LMTD_counter.m`   |  Calculates LMTD for counter-flow heat exchangers |
 | `LMTD_parallel.m`  | Same as above but for parallel-flow exchangers. |
-| `effectiveness.m`  | NTU-effectiveness method calculation. |
+| `effectiveness.m`  | Calculates R, NTU and effectiveness. |
 | `exchanger_area.m` | Calculates required area from Q, U, and ΔT. |
 | `heat_rate.m`      | Calculates rate of heat transfer. |
 | `overall_coeff.m`  | Computes overall heat transfer coefficient U. |
