@@ -40,7 +40,7 @@ function A = exchanger_area();
 elseif flow_type == 2
     LMTD = LMTD_counter(Thi,Tho,Tci,Tco);
 else
-    error(' Type just one or two, dumpass!')
+    error(' Invalid option, type just one or two.')
   end
 case 2
 
@@ -61,6 +61,6 @@ case 3
 otherwise
   error('  You have just three options!')
 end
-A = Q/(U*LMTD*F);
-A = fprintf('   Area required to design this heat exchanger = %.4f m^2 \n',A)
+A = Q /( U * LMTD * F);
+fprintf('   Area required to design this heat exchanger = %.4f m^2 \n',A)
 end
