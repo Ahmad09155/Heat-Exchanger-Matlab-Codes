@@ -34,8 +34,7 @@ This repository contains MATLAB scripts developed to solve common heat exchanger
 
 * Author:
 
-Ahmad M. Hassan
-Chemical Engineering Student | Sudan  
+Ahmad M. Hassan | Sudan  
 
 Chemical engineering student interested in process simulation and engineering problem-solving through MATLAB and Python coding.
   
